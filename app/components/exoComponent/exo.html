@@ -1,0 +1,13 @@
+<div ng-if="data">
+	<h1>{{data.Question}}</h1>
+
+	<ul>
+		<li class="li-button" ng-repeat="response in data.Responses">
+			<button class="btn" ng-click="chooseOption(response)">
+				{{response.name}}
+			</button>
+		</li>
+	</ul>
+
+	<p>{{message}}</p>
+</div>

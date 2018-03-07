@@ -1,0 +1,36 @@
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #286090;
+    text-align: center;
+    letter-spacing: .5px;    
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    z-index: 1;
+    font-weight: bold;
+    outline: none;
+}
+.btn:hover{
+    color: black;
+    background-color: #8cabc5;
+}
+.li-button{
+    display: inline-block;
+    list-style-type: none;
+    margin: 15px;
+}
